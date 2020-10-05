@@ -35,16 +35,6 @@ ul {
 }
 
 
-.avatar {
-  background: #ffffff;
-  border-radius: 50%;
-  color: #333C4D;
-  height: 40px;
-  margin-right: 20px;
-  padding-left: 9px;
-  padding-top: 5px;
-  width: 40px;
-}
 
 
 .top-nav {
@@ -65,9 +55,6 @@ ul {
   padding-right: 10px;
 }
 
-/*
-*main container
-*/
 
 .container {
   margin: 60px auto;
@@ -76,9 +63,7 @@ ul {
 }
 
 
-/**
-*main header
-*/
+
 
 .container>header {
   background: 
@@ -105,9 +90,7 @@ ul {
 }
 
 
-/**
-*main section
-*/
+
 
 .main-section {
   background: #a0bb43;
@@ -264,20 +247,7 @@ footer p {
   text-align: center;
 }
 
-footer p.title {
-  font-size: 1.2em;
-  padding: 15px;
-}
 
-footer ul {
-  align-items: center;
-  display: flex;
-  padding: 20px;
-}
-
-footer ul li {
-  flex: 1;
-}
 
 
 

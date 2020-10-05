@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="My Web Zone" />
+    <meta name="author" content="Your name" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>My Web Zone Final</title>
+  </head>
+  <body>
+    <header class="top-header">
+      <nav class="top-nav">
+        <!--  <input type="button" name="Feeling Lucky" onclick="fn1(this)" />
+        <input id="nybtn" type="button" value="Good Day" /> -->
+        <a href="#">Library</a>
+        <a href="#">Projects</a>
+        <a href="#">Me</a>
+        <input
+          id="i1"
+          type="button"
+          value="Have a Try！"
+          onclick="alert('Excellent!')"
+        />
+        <input type="text" onkeydown="downfn()" onkeyup="upfn()" />
+      </nav>
+      <span id="welcome-msg"></span>
+      <i id="avatar" class="avatar fa fa-user fa-2x"></i>
+    </header>
+
+    <div class="container">
+      <header>
+        <p>
+          <span>My</span>
+          <br />
+          Web Zone
+        </p>
+      </header>
+
+      <section class="main-section">
+        <aside id="item-nav">
+          <div class="nav-icon">
+            <i class="fa fa-sitemap fa-2x"></i>
+          </div>
+          <nav class="main-nav">
+            <a href="#" id="naerby-btn" class="main-nav-btn active">
+              <i class="fa fa-map-marker"></i> Address & Contact
+            </a>
+            <a href="#" id="fav-btn" class="main-nav-btn">
+              <i class="fa fa-heart"></i> Skills
+            </a>
+            <a href="#" id="recommend-btn" class="main-nav-btn">
+              <i class="fa fa-thumbs-up"></i> Publishment
+            </a>
+          </nav>
+        </aside>
+
+        <ul id="item-list">
+          <li class="item">
+            <img
+              src="https://github-jobs.s3.amazonaws.com/dV16BasrNS1hACoUvMzKDB8k?response-content-disposition=inline%3B%20filename%3D%22f470d99d-33e6-44f5-ac37-d1237f0a00d1%22%3B%20filename%2A%3DUTF-8%27%27f470d99d-33e6-44f5-ac37-d1237f0a00d1&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJENXOYUQN2IQEWRA%2F20200927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200927T215107Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=66f8c5a75568d1efac8b0019186a7ace5b0c9fc180426ab8e82973371538c42f"
+              alt="web image"
+            />
+            <div>
+              <a class="item-name" href="#">Job</a>
+              <p class="item-category">Software Engineer</p>
+              <ul>
+                <li onclick="myfn(this)">
+                  Full Stack
+                  <ul class="ul2" style="display: none">
+                    <li>front-end</li>
+                    <li>back-end</li>
+                  </ul>
+                </li>
+                <li onclick="myfn(this)">
+                  Mobile Develop
+                  <ul class="ul2" style="display: none">
+                    <li>ios</li>
+                    <li>Android</li>
+                  </ul>
+                </li>
+                <li onclick="myfn(this)">
+                  Machine Learning
+                  <ul class="ul2" style="display: block">
+                    <li>Data Engineer</li>
+                    <li>Big Data</li>
+                    <li>AI</li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <p class="item-address">
+              255 Tillson Ave <br />Palo Alto <br />
+              CA
+            </p>
+            <div class="fav-link">
+              <i class="fa fa-heart"></i>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <p class="title">Hi there!</p>
+      <p>"Enjoy every piece of fun in life"</p>
+      <ul>
+        <li>
+          <p><i class="fa fa-map-o fa-2x"></i></p>
+          <p>My locaion, CA</p>
+        </li>
+        <li>
+          <p><i class="fa fa-envelope-o fa-2x"></i></p>
+          <p>vicky@gmail.com</p>
+        </li>
+        <li>
+          <p><i class="fa fa-phone fa-2x"></i></p>
+          <p>+1 123 456 789</p>
+        </li>
+      </ul>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+    <script src="./click.js"></script>
+  </body>
+</html>

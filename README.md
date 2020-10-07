@@ -4,3 +4,5 @@ Projcet Object : Build a personal homepage, including contact information, addre
 Screenshot : there is a video and slides posted to the google form url;
 Instructions : using html and css to design the webpage, using two javascript files to achieve clickon functions to make dynamic pages.
 The whole image : https://github.com/VickyZ20/webDevelopment/issues/1
+
+![](img.jpg)
